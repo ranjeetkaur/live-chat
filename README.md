@@ -1,5 +1,17 @@
 # README #
 
+
+
+## Live Demo ##
+
+[Customer](https://www.cronj.com:8082/)
+
+[Admin](https://www.cronj.com:8082/adminURL)
+
+(username : admin , password : password)
+
+## [Blog Post](https://www.cronj.com/blog/build-a-live-customer-support-chat/) ##
+
 ## Features ##
 
 * Chat with admin for quick response
@@ -70,5 +82,3 @@ Setting up and integrating this app into your website is very easy and can be do
 And that is it! The chat is up and running.
 
 Note : The code to send emails is inititally commented. This is because, you will need the ‘refresh token’ of the senders account. ( See : http://goo.gl/vA9l4F ). The token needs be added in mail.js
-
-## [Blog Post](https://www.cronj.com/blog/build-a-live-customer-support-chat/) ##
