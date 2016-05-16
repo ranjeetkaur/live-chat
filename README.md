@@ -1,29 +1,46 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+## Features ##
 
-### What is this repository for? ###
+* Chat with admin for quick response
+* Chat session is maintained across tabs, page refreshes and browser restarts
+* Chat history has ‘infinite scrolling’
+* Shows ‘typing’ status
+* Lightweight and fast
+* Integrates seamlessly
+* Stores chat history and sends email after a chat
+* Properly handles disconnection and re-connection
+* Audio and browser notifications when a user comes online
+* Clean and unobtrusive interface
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+## Tools Needed ##
 
-### How do I get set up? ###
+* Node.js
+* Express.js
+* Socket.io
+* Redis
+* Libraries Used
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+Q – A javscript promise library
+Node-uuid – A library to generate UUIDs
+Setup and Configuration
 
-### Contribution guidelines ###
+Try the app locally
 
-* Writing tests
-* Code review
-* Other guidelines
+Install the dependencies
+npm install
+Start the redis server
+redis-server
+Start the node server
+node app.js (or npm start )
+Open the URLs
+Customer page 
+Admin page
+Setting up and integrating this app into your website is very easy and can be done in 3 simple steps.
 
-### Who do I talk to? ###
+Set up the config file : Add all the parameters to set up the application.
+Host the app : Set up the redis endpoint and start the server.
+Add chat.js : Add the domain name and port to the js file and include it in all the pages where you want the chat to appear.
+And that is it! The chat is up and running.
 
-* Repo owner or admin
-* Other community or team contact
+Note : The code to send emails is inititally commented. This is because, you will need the ‘refresh token’ of the senders account. ( See : http://goo.gl/vA9l4F ). The token needs be added in mail.js
