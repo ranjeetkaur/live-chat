@@ -25,18 +25,6 @@
 * Audio and browser notifications when a user comes online
 * Clean and unobtrusive interface
 
-## Tools Needed ##
-
-* Node.js
-* Express.js
-* Socket.io
-* Redis
-
-## Libraries Used ##
-
-* Q – A javscript promise library
-* Node-uuid – A library to generate UUIDs
-
 ## Setup and Configuration ##
 
 ### Try the app locally ###
