@@ -19,13 +19,15 @@
 * Express.js
 * Socket.io
 * Redis
-* Libraries Used
 
-Q – A javscript promise library
-Node-uuid – A library to generate UUIDs
-Setup and Configuration
+## Libraries Used ##
 
-Try the app locally
+* Q – A javscript promise library
+* Node-uuid – A library to generate UUIDs
+
+## Setup and Configuration ##
+
+### Try the app locally ###
 
 Install the dependencies
 npm install
