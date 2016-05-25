@@ -10,7 +10,7 @@
 
 (username : admin , password : password)
 
-## [Click to read detailed blog](https://www.cronj.com/blog/build-a-live-customer-support-chat/) ##
+## [Click Here for Complete Details](https://www.cronj.com/blog/build-a-live-customer-support-chat/) ##
 
 ## Features ##
 
